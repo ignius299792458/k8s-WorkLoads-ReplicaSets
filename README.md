@@ -24,8 +24,6 @@ Key differences between DaemonSet, StatefulSet, ReplicaSet, and Deployment in Ku
 | **Deletion Order** | Random | Reverse order (highest to lowest index) | Random | Random |
 | **Owns ReplicaSet** | No | No | No | Yes (manages ReplicaSets) |
 
-Would you like me to elaborate on any specific aspect of these workload resources?
-
 ## Example to illustrate how to create, see, and delete the replicaSets
 ```
 ➜  kubectl apply -f replicasets.yml 
